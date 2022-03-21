@@ -203,7 +203,7 @@ export default function Landing() {
             <div className="flex flex-wrap justify-center mb-24 align-middle">
               <div className="flex flex-wrap justify-center w-full px-4 lg:w-8/12">
                 <h2 className="text-4xl font-semibold">Advantages of Briowindows UPVC</h2>
-                <p className="m-4 text-lg leading-relaxed text-blueGray-500">
+                <p className="pt-6 m-4 text-lg leading-relaxed text-center text-blueGray-500">
                 Unfortunately, not all windows and doors are made the same. We use the most advanced pneumatic machines in our fabrication ─ No Screws and Sealants in all internal connections unlike majority of Upvc and Aluminum manufacturers.
                 </p>
               </div>
@@ -280,48 +280,45 @@ export default function Landing() {
                 <h2 className="text-4xl font-semibold text-white">
                   Contact Us
                 </h2>
-                <p className="mt-4 mb-4 text-lg leading-relaxed text-blueGray-400">
+                {/* <p className="mt-4 mb-4 text-lg leading-relaxed text-blueGray-400">
                   Put the potentially record low maximum sea ice extent tihs
                   year down to low ice. According to the National Oceanic and
                   Atmospheric Administration, Ted, Scambos.
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="flex flex-wrap justify-center mt-12">
               <div className="w-full px-4 text-center lg:w-3/12">
                 <div className="inline-flex items-center justify-center w-12 h-12 p-3 bg-white rounded-full shadow-lg text-blueGray-800">
-                  <i className="text-xl fas fa-medal"></i>
+                  <i className="text-xl fa fa-map-marker"></i>
                 </div>
                 <h6 className="mt-5 text-xl font-semibold text-white">
-                  Excelent Services
+                Address​
                 </h6>
                 <p className="mt-2 mb-4 text-blueGray-400">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Las Piñas, Philippines
                 </p>
               </div>
               <div className="w-full px-4 text-center lg:w-3/12">
                 <div className="inline-flex items-center justify-center w-12 h-12 p-3 bg-white rounded-full shadow-lg text-blueGray-800">
-                  <i className="text-xl fas fa-poll"></i>
+                  <i className="text-xl fas fa-envelope"></i>
                 </div>
                 <h5 className="mt-5 text-xl font-semibold text-white">
-                  Grow your market
+                Email Us
                 </h5>
                 <p className="mt-2 mb-4 text-blueGray-400">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                briocon888@hotmail.com
                 </p>
               </div>
               <div className="w-full px-4 text-center lg:w-3/12">
                 <div className="inline-flex items-center justify-center w-12 h-12 p-3 bg-white rounded-full shadow-lg text-blueGray-800">
-                  <i className="text-xl fas fa-lightbulb"></i>
+                  <i className="text-xl fas fa-phone"></i>
                 </div>
                 <h5 className="mt-5 text-xl font-semibold text-white">
-                  Launch time
+                Call Us
                 </h5>
                 <p className="mt-2 mb-4 text-blueGray-400">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                0918-858-8888
                 </p>
               </div>
             </div>
