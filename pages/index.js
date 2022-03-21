@@ -112,7 +112,7 @@ export default function Landing() {
                   <i className="text-xl fas fa-user-friends"></i>
                 </div>
                 <h3 className="mb-2 text-3xl font-semibold leading-normal">
-                Building more than Windows and Doors. We build "Relationships"
+                Building more than Windows and Doors. We build "Relationships".
                 </h3>
                 <p className="mt-4 mb-4 text-lg font-light leading-relaxed text-blueGray-600">
                 Building relationship is more than just a slogan at BRIO WINDOWS. It’s how we do business. From start to finish we take our commitment to our client seriously. By carefully listening to our clients such as ARCHITECTS, ENGINEERS INTERIOR DESIGNERS and HOME BUILDERS we get a thorough understanding of their wants, needs and expectations. That’s how we’ve built a track record of exceptional customer satisfaction over the years…QUALITY PRICE AND SERVICE (QPS).
