@@ -124,7 +124,7 @@ export default function Landing() {
                 <div className="relative flex flex-col w-full min-w-0 mb-6 break-words bg-white rounded-lg shadow-lg bg-blueGray-700">
                   <img
                     alt="..."
-                    src="https://res.cloudinary.com/briowindows/image/upload/v1647806363/briowindows/0-02-06-eb62a226d3e7246343b14224ff8e081e982f99214c294df3278ffd4a9a0b96ff_a1ed879d3ab0bded_jsrho6.webp"
+                    src="https://res.cloudinary.com/briowindows/image/upload/v1647801847/briowindows/34-1024x576_b8s9aw.avif"
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">
@@ -135,7 +135,7 @@ export default function Landing() {
                       className="absolute left-0 block w-full h-95-px -top-94-px"
                     >
                       <polygon
-                        points="-30,95 583,95 583,65"
+                        points="-30,95 583,95 583,85"
                         className="fill-current text-blueGray-700"
                       ></polygon>
                     </svg>
