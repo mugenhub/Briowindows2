@@ -13,8 +13,8 @@ export default function Navbar(props) {
           <div className="relative flex justify-between w-full lg:w-auto lg:static lg:block lg:justify-start">
             <Link href="/">
               <a
-                className="inline-block py-2 mr-4 text-sm font-bold leading-relaxed text-white uppercase whitespace-nowrap"
-                href="#pablo"
+                className="inline-block py-2 mr-4 text-lg font-bold leading-relaxed text-white uppercase whitespace-nowrap"
+                href="#"
               >
                 BrioWindows
               </a>

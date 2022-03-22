@@ -14,7 +14,7 @@ export default function Landing() {
       <main>
         <div className="relative flex items-center content-center justify-center pt-16 pb-32 min-h-screen-75">
           <div
-            className="absolute top-0 w-full h-full bg-center bg-cover"
+            className="absolute top-0 w-full h-full bg-scroll bg-center"
             style={{
               backgroundImage:
                 "url('./img/bg-hero.jpg')",
@@ -120,7 +120,7 @@ export default function Landing() {
                 
               </div>
 
-              <div className="w-full px-4 ml-auto mr-auto md:w-4/12">
+              <div className="w-full px-4 ml-auto mr-auto md:w-6/12">
                 <div className="relative flex flex-col w-full min-w-0 mb-6 break-words bg-white rounded-lg shadow-lg bg-blueGray-700">
                   <img
                     alt="..."

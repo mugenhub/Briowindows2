@@ -77,9 +77,10 @@ export default function Footer() {
                         className="block pb-2 text-sm font-semibold text-blueGray-600 hover:text-blueGray-800"
                         href="#"
                       >
-                        Blog
+                        Contact Us
                       </a>
                     </li>
+                    
                     
                     
                   </ul>
@@ -113,14 +114,7 @@ export default function Footer() {
                         Privacy Policy
                       </a>
                     </li>
-                    <li>
-                      <a
-                        className="block pb-2 text-sm font-semibold text-blueGray-600 hover:text-blueGray-800"
-                        href="#"
-                      >
-                        Contact Us
-                      </a>
-                    </li>
+                    
                   </ul>
                 </div>
               </div>
