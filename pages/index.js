@@ -14,7 +14,7 @@ export default function Landing() {
       <main>
         <div className="relative flex items-center content-center justify-center pt-16 pb-32 min-h-screen-75">
           <div
-            className="absolute top-0 w-full h-full bg-scroll bg-center"
+            className="absolute top-0 w-full h-full bg-scroll bg-center bg-cover"
             style={{
               backgroundImage:
                 "url('./img/bg-hero.jpg')",
