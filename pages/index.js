@@ -5,63 +5,36 @@ import Link from "next/link";
 
 import Navbar from "components/Navbars/AuthNavbar.js";
 import Footer from "components/Footers/Footer.js";
-import IndexNavbar from "components/Navbars/IndexNavbar"
 
 export default function Landing() {
   return (
     <>
+
+
       <Navbar transparent />
       <main>
-        <div className="relative flex items-center content-center justify-center pt-16 pb-32 min-h-screen-75">
-          <div
-            className="absolute top-0 w-full h-full bg-scroll bg-center bg-cover"
-            style={{
+       
+       
+        <div className="w-full h-screen mt-20 bg-center bg-no-repeat bg-cover" style={{
               backgroundImage:
                 "url('./img/bg-hero.jpg')",
-            }}
-          >
-            <span
-              id="blackOverlay"
-              className="absolute w-full h-full bg-black opacity-75"
-            ></span>
-          </div>
-          <div className="container relative mx-auto">
-            <div className="flex flex-wrap items-center">
-              <div className="w-full px-4 ml-auto mr-auto text-center lg:w-6/12">
-                <div className="pr-12">
-                  <h1 className="text-5xl font-semibold text-white">
-                    Where Luxury is now Affordable
-                  </h1>
-                  <p className="mt-4 text-lg text-blueGray-200">
-                  We are considered as One of the Best Manufacturers of Quality UPVC in the Philippines. We are proud of our More than 15 Years of Experience in the Market.
+            }}>
+          <div className="flex items-center justify-center w-full h-screen ">
+            <div className="mx-4 text-center text-white bg-black bg-opacity-50 rounded-lg">
+              <h1 className="mb-4 text-6xl font-bold">Where Luxury</h1>
+              <h1 className="mb-4 text-6xl font-bold">is now Affordable</h1>
+              <p className="mt-4 text-lg text-blueGray-200">
+                  We are considered as One of the Best Manufacturers of Quality UPVC in the Philippines. 
                   </p>
-                </div>
-              </div>
+                  <p>We are proud of our More than 15 Years of Experience in the Market.</p>
+          
             </div>
-          </div>
-          <div
-            className="absolute bottom-0 left-0 right-0 top-auto w-full h-16 overflow-hidden pointer-events-none"
-            style={{ transform: "translateZ(0)" }}
-          >
-            <svg
-              className="absolute bottom-0 overflow-hidden"
-              xmlns="http://www.w3.org/2000/svg"
-              preserveAspectRatio="none"
-              version="1.1"
-              viewBox="0 0 2560 100"
-              x="0"
-              y="0"
-            >
-              <polygon
-                className="fill-current text-blueGray-200"
-                points="2560 0 2560 100 0 100"
-              ></polygon>
-            </svg>
+            <div>asdsasdsa</div>
           </div>
         </div>
 
-        <section className="pb-20 -mt-24 bg-blueGray-200">
-          <div className="container px-4 mx-auto">
+        <section className="flex flex-wrap pt-10 pb-20 -mt-24 bg-blueGray-200">
+          <div className="container px-4 pt-20 mx-auto">
             <div className="flex flex-wrap">
               <div className="w-full px-4 pt-6 text-center lg:pt-12 md:w-4/12">
                 <div className="relative flex flex-col w-full min-w-0 mb-8 break-words bg-white rounded-lg shadow-lg">
@@ -105,6 +78,10 @@ export default function Landing() {
                 </div>
               </div>
             </div>
+
+            {/* <Testqwe /> */}
+
+            {/* <Testimonial/> */}
 
             <div className="flex flex-wrap items-center mt-32">
               <div className="w-full px-4 ml-auto mr-auto md:w-5/12">

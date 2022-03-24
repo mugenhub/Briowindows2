@@ -2,20 +2,22 @@ import React from "react";
 import Link from "next/link";
 // components
 
-import PagesDropdown from "components/Dropdowns/PagesDropdown.js";
-
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-      <nav className="absolute top-0 z-50 flex flex-wrap items-center justify-between w-full px-2 py-3 navbar-expand-lg">
+      <nav className="absolute top-0 z-50 flex flex-wrap items-center justify-between w-full px-2 py-3 bg-white navbar-expand-lg">
         <div className="container flex flex-wrap items-center justify-between px-4 mx-auto">
           <div className="relative flex justify-between w-full lg:w-auto lg:static lg:block lg:justify-start">
             <Link href="/">
               <a
-                className="inline-block py-2 mr-4 text-lg font-bold leading-relaxed text-white uppercase whitespace-nowrap"
+                className="inline-block py-2 mr-4 text-lg font-bold leading-relaxed text-gray-800 uppercase whitespace-nowrap"
                 href="#"
               >
+                {/* <Image
+                src=''
+                
+                /> */}
                 BrioWindows
               </a>
             </Link>
@@ -33,7 +35,7 @@ export default function Navbar(props) {
              
               <li className="flex items-center">
                 <a
-                  className="flex items-center px-3 py-4 text-xs font-bold uppercase lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 lg:py-2"
+                  className="flex items-center px-3 py-4 text-xs font-bold uppercase lg:text-gray-800 lg:hover:text-blueGray-200 text-blueGray-700 lg:py-2"
                   href="/"
                   target="_blank"
                 >
@@ -43,7 +45,7 @@ export default function Navbar(props) {
 
               <li className="flex items-center">
                 <a
-                  className="flex items-center px-3 py-4 text-xs font-bold uppercase lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 lg:py-2"
+                  className="flex items-center px-3 py-4 text-xs font-bold uppercase lg:text-gray-800 lg:hover:text-blueGray-200 text-blueGray-700 lg:py-2"
                   href="/about"
                   target="_blank"
                 >
@@ -53,7 +55,7 @@ export default function Navbar(props) {
 
               <li className="flex items-center">
                 <a
-                  className="flex items-center px-3 py-4 text-xs font-bold uppercase lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 lg:py-2"
+                  className="flex items-center px-3 py-4 text-xs font-bold uppercase lg:text-gray-800 lg:hover:text-blueGray-200 text-blueGray-700 lg:py-2"
                   href="/portfolio"
                   target="_blank"
                 >
