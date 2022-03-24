@@ -29,7 +29,7 @@ export default function Landing() {
                   <p>We are proud of our More than 15 Years of Experience in the Market.</p>
           
             </div>
-            <div>asdsasdsa</div>
+           
           </div>
         </div>
 
