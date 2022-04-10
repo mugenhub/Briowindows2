@@ -101,10 +101,11 @@ export default function Landing() {
                 <div className="relative flex flex-col w-full min-w-0 mb-6 break-words bg-white rounded-lg shadow-lg bg-blueGray-700">
                   <img
                     alt="..."
-                    src="https://res.cloudinary.com/briowindows/image/upload/v1647801847/briowindows/34-1024x576_b8s9aw.avif"
-                    className="w-full align-middle rounded-t-lg"
+                    src="./img/bg-hero2.jpg"
+                    
+                    className="w-1/3 align-middle rounded-t-lg "
                   />
-                  <blockquote className="relative p-8 mb-4">
+                  <blockquote className="relative p-2 mb-4">
                     <svg
                       preserveAspectRatio="none"
                       xmlns="http://www.w3.org/2000/svg"
