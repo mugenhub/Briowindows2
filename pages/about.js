@@ -15,19 +15,14 @@ export default function Landing() {
       <main>
        
        
-        <div className="w-full h-screen mt-20 bg-center bg-no-repeat bg-cover" style={{
+        <div className="w-full mt-20 bg-scroll bg-center bg-no-repeat h-min bg-full" style={{
               backgroundImage:
-                "url('./img/bg-hero.jpg')",
+                "url('https://briowindows.mugenhub.com/wp-content/uploads/2022/02/257108386_626594322039365_8250558679097995941_n.jpg')",
             }}>
           <div className="flex items-center justify-center w-full h-screen ">
-            <div className="mx-4 text-center text-white bg-black bg-opacity-50 rounded-lg">
-              <h1 className="mb-4 text-6xl font-bold">Where Luxury</h1>
-              <h1 className="mb-4 text-6xl font-bold">is now Affordable</h1>
-              <p className="mt-4 text-lg text-blueGray-200">
-                  We are considered as One of the Best Manufacturers of Quality UPVC in the Philippines. 
-                  </p>
-                  <p>We are proud of our More than 15 Years of Experience in the Market.</p>
-          
+            <div className="w-full mx-4 text-center text-white bg-black bg-opacity-50 rounded-lg">
+              <h1 className="mb-4 text-6xl font-bold">ABOUT US</h1>
+            
             </div>
            
           </div>
@@ -35,49 +30,7 @@ export default function Landing() {
 
         <section className="flex flex-wrap pt-10 pb-20 -mt-24 bg-blueGray-200">
           <div className="container px-4 pt-20 mx-auto">
-            <div className="flex flex-wrap">
-              <div className="w-full px-4 pt-6 text-center lg:pt-12 md:w-4/12">
-                <div className="relative flex flex-col w-full min-w-0 mb-8 break-words bg-white rounded-lg shadow-lg">
-                  <div className="flex-auto px-4 py-5">
-                    <div className="inline-flex items-center justify-center w-12 h-12 p-3 mb-5 text-center text-white bg-red-400 rounded-full shadow-lg">
-                      <i className="fas fa-award"></i>
-                    </div>
-                    <h1 className="text-3xl font-bold">15+</h1>
-                    <p className="mt-2 mb-4 text-blueGray-500">
-                      Years of Experience
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="w-full px-4 text-center md:w-4/12">
-                <div className="relative flex flex-col w-full min-w-0 mb-8 break-words bg-white rounded-lg shadow-lg">
-                  <div className="flex-auto px-4 py-5">
-                    <div className="inline-flex items-center justify-center w-12 h-12 p-3 mb-5 text-center text-white rounded-full shadow-lg bg-lightBlue-400">
-                      <i className="fas fa-retweet"></i>
-                    </div>
-                    <h1 className="text-3xl font-bold">100+</h1>
-                    <p className="mt-2 mb-4 text-blueGray-500">
-                      Project Finished
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="w-full px-4 pt-6 text-center md:w-4/12">
-                <div className="relative flex flex-col w-full min-w-0 mb-8 break-words bg-white rounded-lg shadow-lg">
-                  <div className="flex-auto px-4 py-5">
-                    <div className="inline-flex items-center justify-center w-12 h-12 p-3 mb-5 text-center text-white rounded-full shadow-lg bg-emerald-400">
-                      <i className="fas fa-fingerprint"></i>
-                    </div>
-                    <h1 className="text-3xl font-bold">100+</h1>
-                    <p className="mt-2 mb-4 text-blueGray-500">
-                      Happy Clients
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
 
             {/* <Testqwe /> */}
 
@@ -89,10 +42,10 @@ export default function Landing() {
                   <i className="text-xl fas fa-user-friends"></i>
                 </div>
                 <h3 className="mb-2 text-3xl font-semibold leading-normal">
-                Building more than Windows and Doors. We build "Relationships".
+                OUR STORY
                 </h3>
                 <p className="mt-4 mb-4 text-lg font-light leading-relaxed text-blueGray-600">
-                Building relationship is more than just a slogan at BRIO WINDOWS. It’s how we do business. From start to finish we take our commitment to our client seriously. By carefully listening to our clients such as ARCHITECTS, ENGINEERS INTERIOR DESIGNERS and HOME BUILDERS we get a thorough understanding of their wants, needs and expectations. That’s how we’ve built a track record of exceptional customer satisfaction over the years…QUALITY PRICE AND SERVICE (QPS).
+                Brio Windows was founded in 2006 until the incorporation in 2019 now under the name Briocon Development Corporation on the simple value system: treating others in the same way we would want others to treat us. Truth and honesty are not just words at Brio, they are the standard we demand of everyone who makes up our team. By hiring only the qualified personnel with the strongest work experience. Brio Windows Team members are trained to operate as an extension of the owner, trusted to make decisions in the best interest of the projects.
                 </p>
                 
               </div>
@@ -101,29 +54,11 @@ export default function Landing() {
                 <div className="relative flex flex-col w-full min-w-0 mb-6 break-words bg-white rounded-lg shadow-lg bg-blueGray-700">
                   <img
                     alt="..."
-                    src="./img/bg-hero2.jpg"
+                    src="https://briowindows.mugenhub.com/wp-content/uploads/2022/02/40-1024x768-1.jpg"
                     
                     className="w-1/3 align-middle rounded-t-lg "
                   />
-                  <blockquote className="relative p-2 mb-4">
-                    <svg
-                      preserveAspectRatio="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 583 95"
-                      className="absolute left-0 block w-full h-95-px -top-94-px"
-                    >
-                      <polygon
-                        points="-30,95 583,95 583,85"
-                        className="fill-current text-blueGray-700"
-                      ></polygon>
-                    </svg>
-                    <h4 className="text-xl font-bold text-white">
-                      Top Notch Services
-                    </h4>
-                    <p className="mt-2 font-light text-white text-md">
-                      Working with us is a pleasure.
-                    </p>
-                  </blockquote>
+                  
                 </div>
               </div>
             </div>
@@ -154,10 +89,13 @@ export default function Landing() {
           <div className="container px-4 mx-auto">
             <div className="flex flex-wrap items-center">
               <div className="w-full px-4 ml-auto mr-auto md:w-4/12">
-                <img
-                  alt="..."
-                  className="max-w-full rounded-lg shadow-lg"
-                  src="https://res.cloudinary.com/briowindows/image/upload/v1647801847/briowindows/272217052_669212947777502_7376379125253174438_n_mqnza6.jpg"
+                
+                <Image
+                src="https://briowindows.mugenhub.com/wp-content/uploads/2022/02/8-1024x576-1.jpg"
+                alt="Picture of the author"
+      width={500}
+      height={350} 
+                
                 />
               </div>
               <div className="w-full px-4 ml-auto mr-auto md:w-5/12">
@@ -189,10 +127,10 @@ export default function Landing() {
             <div className="flex flex-wrap justify-center">
               
 
-              <div className="w-full px-4 mb-12 md:w-6/12 lg:w-3/12 lg:mb-0">
+              <div className="w-full px-4 mb-8 md:w-6/12 lg:w-3/12 lg:mb-0">
                 <div className="px-6">
                  
-                  <div className="pt-6 text-center">
+                  <div className="pt-4 text-center">
                     <h5 className="pb-4 text-xl font-bold">Increase Property Value</h5>
                     <h5 className="pb-4 text-xl font-bold">Impressive durability</h5>
                     <h5 className="pb-4 text-xl font-bold">Weather Resistant</h5>
@@ -205,7 +143,7 @@ export default function Landing() {
               <div className="w-full px-4 mb-12 md:w-6/12 lg:w-3/12 lg:mb-0">
                 <div className="px-6">
                  
-                  <div className="pt-6 text-center">
+                  <div className="pt-4 text-center">
                     <h5 className="pb-4 text-xl font-bold">Aesthetically Pleasing</h5>
                     <h5 className="pb-4 text-xl font-bold">Corrosion proof</h5>
                     <h5 className="pb-4 text-xl font-bold">Safety and Security</h5>
@@ -217,7 +155,7 @@ export default function Landing() {
               <div className="w-full px-4 mb-12 md:w-6/12 lg:w-3/12 lg:mb-0">
                 <div className="px-6">
                  
-                  <div className="pt-6 text-center">
+                  <div className="pt-4 text-center">
                     <h5 className="pb-4 text-xl font-bold">Durable Mechanism</h5>
                     <h5 className="pb-4 text-xl font-bold">Eco Friendly</h5>
                     <h5 className="pb-4 text-xl font-bold">Value for Money</h5>
@@ -225,7 +163,9 @@ export default function Landing() {
                   </div>
                 </div>
               </div>
-              
+              <p className="pt-6 m-4 text-lg leading-relaxed text-center text-blueGray-500">
+                Unfortunately, not all windows and doors are made the same. We use the most advanced pneumatic machines in our fabrication ─ No Screws and Sealants in all internal connections unlike majority of Upvc and Aluminum manufacturers.
+                </p>
               
             </div>
           </div>

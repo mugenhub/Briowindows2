@@ -37,7 +37,7 @@ export default function Navbar(props) {
                 <a
                   className="flex items-center px-3 py-4 text-xs font-bold uppercase lg:text-gray-800 lg:hover:text-blueGray-200 text-blueGray-700 lg:py-2"
                   href="/"
-                  target="_blank"
+                  target=""
                 >
                   Home
                 </a>
@@ -47,7 +47,7 @@ export default function Navbar(props) {
                 <a
                   className="flex items-center px-3 py-4 text-xs font-bold uppercase lg:text-gray-800 lg:hover:text-blueGray-200 text-blueGray-700 lg:py-2"
                   href="/about"
-                  target="_blank"
+                  target="_self"
                 >
                   About
                 </a>
@@ -57,20 +57,13 @@ export default function Navbar(props) {
                 <a
                   className="flex items-center px-3 py-4 text-xs font-bold uppercase lg:text-gray-800 lg:hover:text-blueGray-200 text-blueGray-700 lg:py-2"
                   href="/portfolio"
-                  target="_blank"
+                  target="_self"
                 >
                   Portfolio
                 </a>
               </li>
 
-              <li className="flex items-center">
-                <button
-                  className="px-4 py-2 mb-3 ml-3 text-xs font-bold uppercase transition-all duration-150 ease-linear bg-white rounded shadow outline-none text-blueGray-700 active:bg-blueGray-50 hover:shadow-md focus:outline-none lg:mr-1 lg:mb-0"
-                  type="button"
-                >
-                  <i className=""></i> Contact Us
-                </button>
-              </li>
+             
             </ul>
           </div>
         </div>
