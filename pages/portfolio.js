@@ -4,6 +4,7 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import SimpleReactLightbox from 'simple-react-lightbox';
 import { SRLWrapper } from "simple-react-lightbox";
+import HeroB from 'components/Headers/HeroB.js';
 
 
 const options = {
@@ -85,18 +86,7 @@ export default function Landing() {
       <main>
        
        
-        <div className="w-full bg-scroll bg-no-repeat lg:bg-center h-min bg-full" style={{
-              backgroundImage:
-                "url('https://briowindows.mugenhub.com/wp-content/uploads/2022/02/257108386_626594322039365_8250558679097995941_n.jpg')",
-            }}>
-          <div className="flex justify-center w-full py-10 lg:h-fit">
-            <div className="w-full mx-4 text-center text-white bg-black bg-opacity-50 rounded-lg ">
-              <h1 className="mb-4 text-6xl font-bold">PORTFOLIO</h1>
-            
-            </div>
-           
-          </div>
-        </div>
+        <HeroB />
 
         <section className="flex flex-wrap pt-10 pb-20 -mt-24 bg-blueGray-200">
           <div className="container px-4 pt-20 mx-auto">
