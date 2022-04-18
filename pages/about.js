@@ -15,7 +15,7 @@ export default function Landing() {
       <main>
        
        
-        <div className="w-full mt-20 bg-scroll bg-center bg-no-repeat h-min bg-full" style={{
+        <div className="w-full bg-scroll bg-center bg-no-repeat h-min bg-full" style={{
               backgroundImage:
                 "url('https://briowindows.mugenhub.com/wp-content/uploads/2022/02/257108386_626594322039365_8250558679097995941_n.jpg')",
             }}>

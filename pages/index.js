@@ -8,11 +8,11 @@ export default function Landing() {
     <>
 
 
-      <Navbar transparent />
+      <Navbar />
       <main>
        
        
-        <div className="w-full h-screen mt-20 bg-center bg-no-repeat bg-cover" style={{
+        <div className="w-full h-screen bg-center bg-no-repeat bg-cover" style={{
               backgroundImage:
                 "url('./img/bg-hero.jpg')",
             }}>
