@@ -5,31 +5,21 @@ import Image from 'next/image'
 
 import Navbar from "../components/Navbars/AuthNavbar.js";
 import Footer from "../components/Footers/Footer.js";
+import Hero from 'components/Headers/Hero.js';
 
-export default function Landing() {
+export default function About() {
   return (
     <>
 
 
-      <Navbar transparent />
+      <Navbar />
       <main>
        
        
-        <div className="w-full bg-scroll bg-center bg-no-repeat h-min bg-full" style={{
-              backgroundImage:
-                "url('https://briowindows.mugenhub.com/wp-content/uploads/2022/02/257108386_626594322039365_8250558679097995941_n.jpg')",
-            }}>
-          <div className="flex items-center justify-center w-full h-screen ">
-            <div className="w-full mx-4 text-center text-white bg-black bg-opacity-50 rounded-lg">
-              <h1 className="mb-4 text-6xl font-bold">ABOUT US</h1>
-            
-            </div>
-           
-          </div>
-        </div>
+        <Hero />
 
         <section className="flex flex-wrap pt-10 pb-20 -mt-24 bg-blueGray-200">
-          <div className="container px-4 pt-20 mx-auto">
+          <div className="container px-4 mx-auto">
             
 
             {/* <Testqwe /> */}
@@ -93,7 +83,7 @@ export default function Landing() {
                 <Image
                 src="https://briowindows.mugenhub.com/wp-content/uploads/2022/02/8-1024x576-1.jpg"
                 alt="Picture of the author"
-      width={500}
+        width={500}
       height={350} 
                 
                 />
