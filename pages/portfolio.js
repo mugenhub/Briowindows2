@@ -5,7 +5,17 @@ import ImageListItem from '@mui/material/ImageListItem';
 import SimpleReactLightbox from 'simple-react-lightbox';
 import { SRLWrapper } from "simple-react-lightbox";
 import HeroB from 'components/Headers/HeroB.js';
+import {Cloudinary} from "@cloudinary/url-gen";
 
+const cld = new Cloudinary({
+  cloud: {
+    cloudName: 'Home'
+  }
+}); 
+
+const myVideo = cld.video('10000000_109084234917817_613601483058779644_n_fvuujb');
+
+const myURL = myVideo.toURL();
 
 const options = {
   settings: {},
@@ -17,7 +27,22 @@ const options = {
 }
 
 
+
 const itemData = [
+
+  {
+    img: './img/a.jpg',
+    title: '',
+  },  {
+    img: './img/b.jpg',
+    title: '',
+  },  {
+    img: './img/c.jpg',
+    title: '',
+  },  {
+    img: './img/d.jpg',
+    title: '',
+  },
   {
     img: './img/1.jpg',
     title: '',
@@ -76,7 +101,7 @@ import Footer from "../components/Footers/Footer.js";
 
 
 
-export default function Landing() {
+export default function Portfolio() {
 
   return (
     <>
@@ -93,23 +118,35 @@ export default function Landing() {
 
           
             <SimpleReactLightbox>
+            
               <SRLWrapper options={options}>
+{/* 
+              <video
+          width="40%"
+          height="20%"
+          srl_video_thumbnail="./img/1.jpg"
+          srl_video_caption="A video with a rabbit"
+          srl_video_muted="true"
+          srl_video_autoplay="true"
+        >
+          <source src="https://res.cloudinary.com/briowindows/video/upload/v1650264270/10000000_109084234917817_613601483058779644_n_fvuujb.mp4" type="video/mp4" />
+       
+          Your browser does not support the video tag.
+        </video> */}
+    
               <ImageList sx={{ width: 'auto', height: 'auto', py: 5 }} cols={3} rowHeight={300}>
-      {itemData.map((item) => (
-        <ImageListItem key={item.img}>
-          <img
-            src={`${item.img}`}
-            srcSet={`${item.img}`}
-            alt={item.title}
-            loading="lazy"
-            
-          />
-          
-        </ImageListItem>
-      ))}
-    </ImageList>
+                {itemData.map((item) => (
+                  <ImageListItem key={item.img}>
+                    <img
+                      src={`${item.img}`}
+                      srcSet={`${item.img}`}
+                      alt={item.title}
+                      loading="lazy"
+                    />
+                  </ImageListItem>
+                ))}
+              </ImageList>
               </SRLWrapper>
-            
             </SimpleReactLightbox>
 
            

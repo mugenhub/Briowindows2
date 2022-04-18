@@ -6,6 +6,6 @@ const nextConfig = {
   module.exports = {
     nextConfig,
     images: {
-      domains: ['briowindows.mugenhub.com'],
+      domains: ['briowindows.mugenhub.com', 'res.cloudinary.com'],
     },
   }
